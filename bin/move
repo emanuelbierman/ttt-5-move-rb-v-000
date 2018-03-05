@@ -7,10 +7,10 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 print "Welcome to Tic Tac Toe!"
 print "Where would you like to go?"
-user_input = gets.strip
+input = gets.strip
 
-input_to_index(user_input)
+input_to_index(input)
 
-move(board, converted_input, character)
+move(board, index, char)
 
 display_board(board)
