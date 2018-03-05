@@ -10,9 +10,9 @@ end
 
 
 def input_to_index(input = 0)
-  index = input.to_i - 1
+  iindex = input.to_i - 1
 end
 
-def move(board, index, char = 'X')
-  board[index] = char
+def move(board, iindex, char = 'X')
+  board[iindex] = char
 end
